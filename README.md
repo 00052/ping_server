@@ -9,12 +9,15 @@ Usage:
 
 * Server
 
-	#&resp;echo "1">/proc/sys/net/ipv4/icmp_echo_ignore_all
-	# gcc -o ping_server ping_server.c
-	# ./ping_server
+```
+# echo "1">/proc/sys/net/ipv4/icmp_echo_ignore_all`
+# gcc -o ping_server ping_server.c
+# ./ping_server
+```
 
 * Client
-	C:\> ping.exe x.x.x.x
+
+`C:\> ping.exe x.x.x.x`
 
 
 Good Luck
